@@ -14,6 +14,8 @@ Public Class Form1
                     AudioFormats += String.Format("{0}" & vbLf, fmt.EncodingFormat.ToString())
                 Next
 
+
+
                 ListBox1.Items.Add(info.Name)
 
                 TextBox1.AppendText(info.Name & vbNewLine)
